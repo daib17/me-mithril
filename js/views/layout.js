@@ -23,6 +23,12 @@ module.exports = {
                             href: "/reports/kmom01",
                             oncreate: m.route.link
                         }, "kmom01")
+                    ]),
+                    m("li", [
+                        m("a", {
+                            href: "/reports/kmom02",
+                            oncreate: m.route.link
+                        }, "kmom02")
                     ])
                 ])
             ]),
