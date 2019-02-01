@@ -1,0 +1,22 @@
+{
+    "name": "me-mithril",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "webpack -d --watch",
+        "build": "webpack -p",
+        "deploy": "webpack -p && rsync -av index.html styles.css dist/bundle.min.js deploy@daib17.me:/var/www/me-mithril.daib17.me/html/"
+    },
+    "keywords": [],
+    "author": "Daniel Ibanez",
+    "license": "ISC",
+    "dependencies": {
+        "mithril": "^1.1.6"
+    },
+    "devDependencies": {
+        "webpack": "^4.29.0",
+        "webpack-cli": "^3.2.1"
+    }
+}

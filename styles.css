@@ -1,0 +1,61 @@
+@import url('https://rsms.me/inter/inter-ui.css');
+/* @import url('https://fonts.googleapis.com/css?family=Roboto+Mono'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 100%;
+    font-family: 'Inter UI', sans-serif;
+    /* font-family: 'Roboto Mono', monospace; */
+}
+
+.layout {
+    width: 960px;
+    margin: 0 auto;
+    padding: 2em 6em 8em;
+    background-color: #509b53;
+    border-top: 4px solid #81cc80;
+    color: white;
+}
+
+h1 {
+    font-size: 4em;
+    font-weight: 100;
+    padding: 0.5em 0;
+}
+
+p {
+    font-size: 1.5em;
+    font-weight: normal;
+}
+
+ul {
+    list-style-type: none;
+    margin-bloc
+}
+
+li {
+    display: inline;
+    margin-right: 1em;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.8em;
+}
+
+li a:hover {
+    text-decoration: underline;
+}
+
+li img {
+    float: right;
+}
+
+.question {
+    margin-bottom: 2em;
