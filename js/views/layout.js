@@ -33,6 +33,6 @@ module.exports = {
                 ])
             ]),
             m("section", vnode.children)
-        ])
+        ]);
     }
 };
