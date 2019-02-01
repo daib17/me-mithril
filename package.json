@@ -7,7 +7,7 @@
         "test": "echo \"Error: no test specified\" && exit 1",
         "start": "webpack -d --watch",
         "build": "webpack -p",
-        "deploy": "webpack -p && rsync -av index.html styles.css dist/bundle.min.js deploy@daib17.me:/var/www/me-mithril.daib17.me/html/"
+        "deploy": "webpack -p && rsync -av index.html styles.css dist img deploy@daib17.me:/var/www/me-mithril.daib17.me/html/"
     },
     "keywords": [],
     "author": "Daniel Ibanez",
