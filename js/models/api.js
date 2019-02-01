@@ -8,7 +8,7 @@ var api = {
         // XHR request
         return m.request({
             method: "GET",
-            url: "http://localhost:8333/"
+            url: "https://me-api.daib17.me/"
         })
         .then(function(result) {
             api.me = result.data.description;
@@ -21,7 +21,7 @@ var api = {
         // XHR request
         return m.request({
             method: "GET",
-            url: "http://localhost:8333/reports/" + id
+            url: "https://me-api.daib17.me/reports/" + id
         })
         .then(function(result) {
             api.content = JSON.parse(result.data.content);
